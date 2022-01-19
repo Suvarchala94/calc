@@ -1,0 +1,139 @@
+.container {
+  display: grid;
+  grid-template-columns: auto, auto, auto, auto;
+  width: 334px;
+  height: 410px;
+  border: 2px groove yellowgreen;
+  gap: 3px;
+  margin: 150px;
+  border-radius: 8px;
+  text-align: center;
+}
+.item {
+  grid-row: 1/2;
+  grid-column: 1/5;
+  font-weight: bolder;
+  border: 2px solid yellowgreen;
+  border-radius: 16px;
+}
+.item1 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  border: 2px solid yellowgreen;
+  text-align: center;
+  font-weight: bold;
+  
+}
+.item2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  border: 2px solid yellowgreen;
+  text-align: center;
+ 
+}
+.item3 {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  border: 2px solid yellowgreen;
+  text-align: center;
+ 
+}
+.item4 {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  border: 2px solid yellowgreen;
+  text-align: center;
+
+}
+.item5 {
+  grid-row: 3/4;
+  grid-column: 2/3;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.item6 {
+  grid-row: 3/4;
+  grid-column: 3/4;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.item7 {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.item8 {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.item9 {
+  grid-row: 4/5;
+  grid-column: 3/4;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itema {
+  grid-row: 2/3;
+  grid-column: 4/5;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemb {
+  grid-row: 3/4;
+  grid-column: 4/5;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemc {
+  grid-row: 4/5;
+  grid-column: 4/5;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemd {
+  grid-row: 5/6;
+  grid-column: 4/5;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.iteme {
+  grid-row: 5/6;
+  grid-column: 1/2;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemf {
+  grid-row: 5/6;
+  grid-column: 2/3;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemg {
+  grid-row: 5/7;
+  grid-column: 3/4;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemh{
+  grid-row: 6/7;
+  grid-column: 1/2;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemi{
+  grid-row: 6/7;
+  grid-column: 2/3;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+.itemj {
+  grid-row: 6/7;
+  grid-column: 4/5;
+  border: 2px solid yellowgreen;
+  text-align: center;
+}
+
+
